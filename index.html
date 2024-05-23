@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+    <title>Guilherme Schumann Portfólio</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+           <li>
+            <a class="header__link" href="#about">sobre</a>
+           </li>
+           <li>
+            <a class="header__link" href="#featured">Trabalhos</a>
+           </li>
+           <li>
+            <a class="header__link" href="#contact">Contato</a>
+           </li>
+           <li class="header__line"></li>
+           <li>
+              <button class="header__sun">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                </svg>                
+              </button>
+           </li>
+           <li>
+              <a class="header__resume btn" href="#">Currículo</a>
+           </li>
+        </ul>
+        <button class="header__bar">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+          
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="./public/profile-photo.jpg" alt="Foto de Perfil">
+        <h2 class="hero__subtitle">Olá, me chamo Guilherme 👋🏻</h2>
+        <h1 class="hero__title">UI/UX DESIGNER &<br>FRONT-END WEB DEVELOPER.</h1>
+        <p class="hero__description">Apaixonado pela <strong>ARTE</strong> como solução na <strong>TECNOLOGIA</strong>, acredito que a tecnologia pode <strong>TRANSFORMAR</strong> a forma como lidamos com o mundo e com as pessoas.</p>
+        <a class="hero__btn btn" href="#">Entre em contato!</a>
+      </section>
+      <section class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">Sobre</h2>
+          <p class="about__description">Olá! Eu sou o Guilherme, um <strong>UI/UX Designer</strong> e <strong>Front-End Developer</strong> brasileiro. Costumo acordar cedo, beber um café, abrir meu notebook e trazer soluções para a internet!</p>
+          <p class="about__description">As pessoas costumam me chamar de obsecado, porém a verdade é que amo aprender e desenvolver novas habilidades, tenho sorte disso se transformar no meu trabalho.</p>
+          <hr class="about__hr">
+        </div>
+        <div class="about__content">
+          <h2 class="about__title">Tecnologias</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/figma.svg" alt="figma_icon"/>Figma</li>
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/photoshop.svg" alt="photoshop_icon"/>Photoshop</li>
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/illustrator.svg" alt="illustrato_icon"/>Illustrator</li>
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/css.svg" alt="css_icon"/>CSS</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/html.svg" alt="html_icon"/>HTML</li>
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/javascript.svg" alt="javascript_icon"/>JavaScript</li>
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/react.svg" alt="react_icon"/>React.js</li>
+              <li class="about__li"><img class="about__techlogos" src="./public/technologies-logos/nodejs.svg" alt="node_icon"/>Node.js</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="contact container section">
+        <h2 class="contact__title">Entre em Contato!</h2>
+        <p class="contat_description">
+          Se você está começando um projeto, quer inovar o seu negócio, ou apenas quer me dizer um oi, sinta-se livre para entrar em contato retorno assim que possível.
+        </p>
+        <button class="contat__btn btn" href="mailto:gui.rsc45@gmail.com" target="_blank">Entre em contato!</button>
+      </section>
+      <footer class="footer container section">
+        <h3 class="footer__title">~ Guilherme Schumann ~</h3>
+      </footer>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
